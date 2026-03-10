@@ -19,7 +19,7 @@ export default function AboutUs() {
 
       <div className={style.news}>
               <div>
-                <h1>Nos marques</h1>
+                <h1>vos marques</h1>
                 <div className={style.grid}>
                   {brands.map((brand,index) => (
                     <div key={index} className={style.card}>
