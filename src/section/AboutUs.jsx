@@ -21,8 +21,8 @@ export default function AboutUs() {
               <div>
                 <h1>Nos marques</h1>
                 <div className={style.grid}>
-                  {brands.map((brand) => (
-                    <div key={brand.id} className={style.card}>
+                  {brands.map((brand,index) => (
+                    <div key={index} className={style.card}>
                       <img src={brand.image} alt={brand.name} />
                       <h3> {brand.name} </h3>
                     </div>
@@ -32,8 +32,8 @@ export default function AboutUs() {
               <div>
                 <h1>Nos families</h1>
                 <div className={style.grid}>
-                  {families.map((famil) => (
-                    <div key={famil.id} className={style.card}>
+                  {families.map((famil,index) => (
+                    <div key={index} className={style.card}>
                       <img src={famil.image} alt={famil.name} />
                       <h3> {famil.name} </h3>
                     </div>
